@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Parcial from './componentes/Parcial';
+import Lista from './componentes/Lista';
 
 
 
 const divRoot = document.querySelector('#root');
 
 
-ReactDOM.render( <Parcial num1={23} num2={3} name={"victor Hernandez"}/>, divRoot);
+ReactDOM.render( <Lista/>, divRoot);
